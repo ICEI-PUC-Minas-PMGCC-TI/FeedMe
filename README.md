@@ -10,6 +10,7 @@
 * João Vítor de Freitas Scarlatelli
 * Gabriel Maia Simões de Matos
 * Nagib Alexandre Verly Borjaili
+* Lorena Teles Trindade
 
 ## Professores responsáveis
 
