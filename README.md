@@ -14,7 +14,7 @@
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
+* Ilo Amy Saldanha Rivero
 * Nome completo do professor 2
 
 ## Instruções de utilização
