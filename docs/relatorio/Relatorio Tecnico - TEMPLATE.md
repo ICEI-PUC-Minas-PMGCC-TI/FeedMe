@@ -23,11 +23,22 @@
   - [Participantes](#participantes)
 - [Estrutura do Documento](#estrutura-do-documento)
 - [Introdução](#introdução)
+Com o tempo, os restaurantes se tornaram um lugar para socializar melhor com as pessoas, além do mais, com a internet, as pessoas acabam ficando cada vez mais afastadas uma das outras.
+Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultando o atendimento dos garçons, com isso, os donos acabam tendo que contratar mais pessoas para suprir a necessidade das meses. Assim, surge nossa ideia, onde aborda os principais problemas dos restaurantes.
+	Tendo em vista os restaurantes locais, é nítido a instabilidade de acerto dos pratos, por mais que seja uma taxa elevada, ainda sim possui uma grande taxa de erros. Com isso, pensamos na ideia de um app onde facilite a solicitação dos pedidos, e torne cada vez mais rápida a entrega dos pratos ou bebidas.
+  
   - [Problema](#problema)
-  - a
+  No cotidiano, os restaurantes acabam trocando os pratos e as bebidas de forma a não serem coniventes com o pedido do cliente. Isso acaba gerando uma certa insatisfação no consumidor, vindo a reclamar ou até deixar uma avaliação negativa para o restaurante. Com isso a visibilidade do restaurante acaba caindo cada vez mais.
+  
   - [Objetivos](#objetivos)
+   Acelerar e melhorar o método de pagamento e de entrega dos pratos das pessoas ate a mesa, funcionando de maneira que o cliente pede na mesa e a cozinha recebe direto o pedido. Para facilitar a entrega dos pratos, sem que aja a grande possibilidade de errar.
+  
   - [Justificativa](#justificativa)
+  Sua confirmação ocorre quando o pagamento é efetuado, assim o processo de levar o prato a mesa fica mais simples, já que nao tera o problema de errar o prato por anotar o pedido errado, minimizando os erros
+
   - [Público-Alvo](#público-alvo)
+  Restaurantes de classe média baixa até alta.
+
 - [Especificações do Projeto](#especificações-do-projeto)
   - [Personas, Empatia e Proposta de Valor](#personas-empatia-e-proposta-de-valor)
   - [Histórias de Usuários](#histórias-de-usuários)
