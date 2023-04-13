@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+FeedME
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciencia da Cumputacao
 
 ## Participantes
 
@@ -14,8 +14,12 @@
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Vitor de Meira Gomes
+> - Giuseppe Sena Cordeiro
+> - João Vítor de Freitas Scarlatelli
+> - Gabriel Maia Simões de Matos
+> - Nagib Alexandre Verly Borjaili
+> - Lorena Teles Trindade
 
 # Estrutura do Documento
 
