@@ -24,8 +24,11 @@ Ciencia da Cumputacao
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
+
   - [Participantes](#participantes)
+  
 - [Estrutura do Documento](#estrutura-do-documento)
+
 - [Introdução](#introdução)
 Com o tempo, os restaurantes se tornaram um lugar para socializar melhor com as pessoas, além do mais, com a internet, as pessoas acabam ficando cada vez mais afastadas uma das outras.
 Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultando o atendimento dos garçons, com isso, os donos acabam tendo que contratar mais pessoas para suprir a necessidade das meses. Assim, surge nossa ideia, onde aborda os principais problemas dos restaurantes.
