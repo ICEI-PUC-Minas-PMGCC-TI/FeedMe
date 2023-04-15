@@ -70,12 +70,14 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
   - [Divisão de Papéis](#divisão-de-papéis)
   > Scrum Master
   	- Vitor de Meira Gomes
+  
   >Equipe de Desinvolvimento
   	- Giuseppe Sena Cordeiro
   	- João Vítor de Freitas Scarlatelli
   	- Lorena Teles Trindade
   	- Gabriel Maia Simões de Matos
   	- Vitor de Meira Gomes
+  	
   > Product Onwer
   	- Giuseppe Sena Cordeiro
   - [Ferramentas](#ferramentas)
