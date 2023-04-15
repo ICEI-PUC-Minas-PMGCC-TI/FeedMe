@@ -492,7 +492,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
-> 
+> Foi feita uma conversação com os integrantes do grupos sobre possíveis problemas que são enfrentados na empresa que são culpa da má gestão. Pós ter uma experiencia ruim em um restaurante, no qual o garçom demorou para atender, anotou pedido errado e a comida certa demorou muito tempo para chegar, um integrante compartilhou isso com o grupo, onde outros também tiveram experiencias parecidas. Afim de otimizar o atendimento em restaurantes e lanchonetes, tivemos a ideia de fazer um webapp que auxilia o garçom no atendimento.
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
