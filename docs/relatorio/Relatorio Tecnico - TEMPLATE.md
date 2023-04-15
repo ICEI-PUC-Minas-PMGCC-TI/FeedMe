@@ -57,6 +57,7 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
     
     - [Requisitos não Funcionais](#requisitos-não-funcionais)
     
+    
   - [Restrições](#restrições)
   
 - [Projeto de Interface](#projeto-de-interface)
@@ -67,7 +68,16 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
   
 - [Metodologia](#metodologia)
   - [Divisão de Papéis](#divisão-de-papéis)
-  
+  > Scrum Master
+  	- Vitor de Meira Gomes
+  >Equipe de Desinvolvimento
+  	- Giuseppe Sena Cordeiro
+  	- João Vítor de Freitas Scarlatelli
+  	- Lorena Teles Trindade
+  	- Gabriel Maia Simões de Matos
+  	- Vitor de Meira Gomes
+  > Product Onwer
+  	- Giuseppe Sena Cordeiro
   - [Ferramentas](#ferramentas)
   
   - [Controle de Versão](#controle-de-versão)
