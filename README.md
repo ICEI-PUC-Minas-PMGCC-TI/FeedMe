@@ -15,7 +15,7 @@
 ## Professores responsáveis
 
 * Ilo Amy Saldanha Rivero
-* Nome completo do professor 2
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
