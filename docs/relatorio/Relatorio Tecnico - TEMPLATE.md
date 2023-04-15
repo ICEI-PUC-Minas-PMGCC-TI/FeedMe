@@ -47,19 +47,33 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
   Restaurantes de classe média baixa até alta.
 
 - [Especificações do Projeto](#especificações-do-projeto)
+
   - [Personas, Empatia e Proposta de Valor](#personas-empatia-e-proposta-de-valor)
+  
   - [Histórias de Usuários](#histórias-de-usuários)
+  
   - [Requisitos](#requisitos)
     - [Requisitos Funcionais](#requisitos-funcionais)
+    
     - [Requisitos não Funcionais](#requisitos-não-funcionais)
+    
   - [Restrições](#restrições)
+  
 - [Projeto de Interface](#projeto-de-interface)
+
   - [User Flow](#user-flow)
+  
   - [Wireframes](#wireframes)
+  
 - [Metodologia](#metodologia)
   - [Divisão de Papéis](#divisão-de-papéis)
+  
   - [Ferramentas](#ferramentas)
+  
   - [Controle de Versão](#controle-de-versão)
+  
+  
+  
 - [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
