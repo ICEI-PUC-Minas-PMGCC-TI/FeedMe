@@ -272,17 +272,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
+
+> A metodologia adotada será uma abordagem scrum, onde o grupo aceita que o problema 
+> pode não ser totalmente entendido ou definido no início e que provavelmente os requisitos 
+> irão mudar ao longo do tempo.
+
+## Mapa de Priorização
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/Mapa%20de%20Priorizacao.png" alt="priorizacao">
 > 
 > **Links Úteis**:
 > - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
