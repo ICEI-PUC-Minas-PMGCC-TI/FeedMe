@@ -90,7 +90,8 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
 	Tendo em vista os restaurantes locais, é nítido a instabilidade de acerto dos pratos, por mais que seja uma taxa elevada, ainda sim possui uma grande taxa de erros. Com isso, pensamos na ideia de um app onde facilite a solicitação dos pedidos, e torne cada vez mais rápida a entrega dos pratos ou bebidas.
 	No cotidiano, os restaurantes acabam trocando os pratos e as bebidas de forma a não serem coniventes com o pedido do cliente. Isso acaba gerando uma certa insatisfação no consumidor, vindo a reclamar ou até deixar uma avaliação negativa para o restaurante. Com isso a visibilidade do restaurante acaba caindo cada vez mais.
 
-############ FOTOS ##############
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Introducao/1.jpg" alt="brainstorm">
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Introducao/2.jpg" alt="matriz">
 
 ## Objetivos
 
