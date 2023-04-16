@@ -288,28 +288,28 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 > Os wireframes apresentados abaixo representam bem a proposta do projeto e as principais intenções de telas a serem utilizadas pelos usuários, neste modelo podemos ver um esquema completo desde login até confirmação de pagamento para termos uma noção mais elaborada da ideia a ser trabalhada no projeto FeedME.
 
-> Tela de login
+## Tela de login
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/1.png" alt="login">
 
-> Tela de menu principal
+## Tela de menu principal
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/2.png" alt="menu">
 
-> Lista de restaurantes disponíveis
+## Lista de restaurantes disponíveis
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/3.png" alt="lista_restaurantes">
 
-> Cardapio digital
+## Cardapio digital
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/4.png" alt="cardapio">
 
-> Modificações do pedido
+## Modificações do pedido
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/5.png" alt="modificacoes">
 
-> Carrinho
+## Carrinho
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/6.png" alt="carrinho">
 
-> Forma de pagamento
+## Forma de pagamento
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/7.png" alt="pagamento">
 
-> Confirmação de pagamento
+## Confirmação de pagamento
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/8.png" alt="fim_pagamento">
 
 
