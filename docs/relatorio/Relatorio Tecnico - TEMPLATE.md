@@ -280,12 +280,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Mapa de Priorização
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/Mapa%20de%20Priorizacao.png" alt="priorizacao">
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+
+## Matriz de Alinhamento
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/Matriz%20de%20Alinhamento%20CSD.png" alt="matriz_alinhamento">
+
+## Stakeholders
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/Stakeholder.png" alt="stakeholders">
+
+## Highlights de Pesquisa
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170021150.png" alt="pesquisa">
+
+## Priorização de Ideias
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170348081.png" alt="priorizacao">
+
+## Murald de Possibilidades 
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170515574.png" alt="possibilidades">
+
+## Brainstorming / Brainwriting
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170645976.png" alt="brain">
+
+## Personas
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/persona1.png" alt="pesona1">
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/persona2.png" alt="pesona2">
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/persona3.png" alt="pesona3">
 
 ## Divisão de Papéis
 
