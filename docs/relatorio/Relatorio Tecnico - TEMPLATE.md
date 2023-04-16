@@ -155,12 +155,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|José Carlos         | Conseguir otimizar meu tempo       | Poder ter mais tempo para praticar meus| 
-|                    |                                    | hobbys e descançar                     |
-|--------------------|------------------------------------|----------------------------------------|
-| José Carlos        | Explorar restaurantes japoneses de | Aumentar meu conhecimento da culinária |
-|                    | minha cidade                       | japonesa                               |
-
+|José Carlos         | Conseguir otimizar meu tempo       | Poder ter mais tempo para praticar meus hobbys e descançar|
+| José Carlos        | Explorar restaurantes japoneses de minha cidade | Aumentar meu conhecimento da culinária japonesa  |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
