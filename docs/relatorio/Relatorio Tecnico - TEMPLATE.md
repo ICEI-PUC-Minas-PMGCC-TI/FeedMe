@@ -121,11 +121,6 @@ Com isso, levando a atingir pessoas de classe média alta, que possuem uma míni
 
 As personas do serviço FeedME são pessoas de diversas faixa etárias que possuem problemas com a demora do atendimento em restaurantes e a baixa taxa de sucesso na entrega dos pratos. Este serviço presta ajuda tanto para as personas de clientes, como também para personas de gerentes de estabelecimentos.
 
-
-(images/persona José Carlos.png)
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona_Jose.png)
 > ## Persona José Carlos
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Jose%20Carlos.png" alt="persona_Jose">
 > 
