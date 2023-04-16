@@ -292,20 +292,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
 
->  TESTEEEEE
-
-
-
-
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+>  Nosso projeto de aplicação possui inicialmente 8 telas que abrangem as principais necessidades do usuário, essas telas foram elaboradas pensando nas funcionalidades mais importantes do projeto e nas requisições mais comuns dos clientes como: verificar restaurantes próximos, visualizar o cardápio de forma mais fácil, poder escolher modificações no pedido e as mesmas serem devidamente armazenadas nas informações entre outros. O projeto atualmente conta com um fluxo bem abrangente que permite uma visualização pratica da proposta apresentada neste artigo.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+<img src="../images/imgs projeto de interface/diagrama.png" alt="diagrama_fluxo">
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
