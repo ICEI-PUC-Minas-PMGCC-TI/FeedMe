@@ -454,10 +454,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+https://comparaplano.com.br/blog/aplicativos-de-comida/
+https://www.segs.com.br/educacao/351142-rango-app-de-alimentacao-para-centros-universitarios-e-criado-no-ceub
+https://www.teknisa.com/automacao-comercial/sistema-para-restaurante-com-tablet/
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Ou restaurantes que ja usam o produto, que e o caso do restaurante Kyoto, localizado em vaios lugares do mundo. Um exemplo de uma de suas franquiaa:
+
+https://www.teknisa.com/automacao-comercial/sistema-para-restaurante-com-tablet/
