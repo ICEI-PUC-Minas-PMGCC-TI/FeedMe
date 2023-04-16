@@ -278,47 +278,41 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
 >  Nosso projeto de aplicação possui inicialmente 8 telas que abrangem as principais necessidades do usuário, essas telas foram elaboradas pensando nas funcionalidades mais importantes do projeto e nas requisições mais comuns dos clientes como: verificar restaurantes próximos, visualizar o cardápio de forma mais fácil, poder escolher modificações no pedido e as mesmas serem devidamente armazenadas nas informações entre outros. O projeto atualmente conta com um fluxo bem abrangente que permite uma visualização pratica da proposta apresentada neste artigo.
 
 ## User Flow
 
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/diagrama.png" alt="diagrama_fluxo">
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
-
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+> Os wireframes apresentados abaixo representam bem a proposta do projeto e as principais intenções de telas a serem utilizadas pelos usuários, neste modelo podemos ver um esquema completo desde login até confirmação de pagamento para termos uma noção mais elaborada da ideia a ser trabalhada no projeto FeedME.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> Tela de login
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/1.png" alt="login">
+
+> Tela de menu principal
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/2.png" alt="menu">
+
+> Lista de restaurantes disponíveis
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/3.png" alt="lista_restaurantes">
+
+> Cardapio digital
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/4.png" alt="cardapio">
+
+> Modificações do pedido
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/5.png" alt="modificacoes">
+
+> Carrinho
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/6.png" alt="carrinho">
+
+> Forma de pagamento
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/7.png" alt="pagamento">
+
+> Confirmação de pagamento
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/8.png" alt="fim_pagamento">
+
+
 
 
 # Metodologia
