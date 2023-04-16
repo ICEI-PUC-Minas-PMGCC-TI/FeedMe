@@ -103,23 +103,12 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Com o tempo, os restaurantes se tornaram um lugar para socializar melhor com as pessoas, além do mais, com a internet, as pessoas acabam ficando cada vez mais afastadas uma das outras.
+Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultando o atendimento dos garçons, com isso, os donos acabam tendo que contratar mais pessoas para suprir a necessidade das meses. Assim, surge nossa ideia, onde aborda os principais problemas dos restaurantes.
+	Tendo em vista os restaurantes locais, é nítido a instabilidade de acerto dos pratos, por mais que seja uma taxa elevada, ainda sim possui uma grande taxa de erros. Com isso, pensamos na ideia de um app onde facilite a solicitação dos pedidos, e torne cada vez mais rápida a entrega dos pratos ou bebidas.
+	No cotidiano, os restaurantes acabam trocando os pratos e as bebidas de forma a não serem coniventes com o pedido do cliente. Isso acaba gerando uma certa insatisfação no consumidor, vindo a reclamar ou até deixar uma avaliação negativa para o restaurante. Com isso a visibilidade do restaurante acaba caindo cada vez mais.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+############ FOTOS ##############
 
 ## Objetivos
 
@@ -136,7 +125,6 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
