@@ -124,11 +124,29 @@ As personas do serviço FeedME são pessoas de diversas faixa etárias que possu
 > ## Persona José Carlos
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Jose%20Carlos.png" alt="persona_Jose">
 
-> ## Mapa de Empatia 
+> ## Mapa de Empatia José Carlos
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Mapa%20de%20empatia/Mapa%20de%20Empatia%20José%20Carlos.png" alt="mapa_de_empatia_Jose">
  
-> ## Proposta de Valor
+> ## Proposta de Valor José Carlos
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Proposta%20de%20Valor/Proposta%20de%20Valor%20Jose%20Carlos.png" alt="prosposta_de_valor_Jose">
+
+> ## Persona Ana Pimenta
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Ana%20Pimenta.png" alt="persona_Ana">
+
+> ## Mapa de Empatia Ana pimenta
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Mapa%20de%20empatia/Mapa%20de%20Empatia%20Ana%20Pimenta.png" alt="mapa_de_empatia_Ana">
+
+> ## Proposta de Valor Ana pimenta
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Proposta%20de%20Valor/Proposta%20de%20Valor%20Antônio%20Pimenta.png" alt="proposta_de_valor_Ana">
+
+> ## Persona Antônio
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Antônio%20Pereira.png" alt="persona_Antonio">
+
+> ## Mapa de Empatia Antônio
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Mapa%20de%20empatia/Mapa%20de%20Empatia%20Antônio%20Pereira.png" alt="mapa_de_empatia_Antonio">
+
+> ## Proposta de Valor Antônio
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Proposta%20de%20Valor/Proposta%20de%20Valor%20Antônio%20Pimenta.png" alt="proposta_de_valor_antonio">
 
 
 ## Histórias de Usuários
