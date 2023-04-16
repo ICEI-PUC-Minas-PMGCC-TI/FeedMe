@@ -234,6 +234,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
+## Link do Marvel App
+> https://marvelapp.com/prototype/6aed4f7
+
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/diagrama.png" alt="diagrama_fluxo">
 
 ## Wireframes
