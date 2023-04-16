@@ -125,7 +125,7 @@ As personas do serviço FeedME são pessoas de diversas faixa etárias que possu
 (images/persona José Carlos.png)
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](images/persona.png)
+> ![Exemplo de Persona](images/persona José Carlos.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
