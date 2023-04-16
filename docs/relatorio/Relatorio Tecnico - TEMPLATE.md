@@ -187,7 +187,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Sistema de notificações no email |  BAIXA |
 |RNF-003| Integrar diferentes linguagens | ALTA |
 |RNF-004| Modo de leitrua facilitada | MÉDIA |
-|RNF-005| Opção de gorjeta | Baixa|
+|RNF-005| Opção de gorjeta | BAIXA|
 
 
 ## Restrições
