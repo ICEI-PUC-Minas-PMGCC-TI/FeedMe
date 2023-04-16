@@ -125,10 +125,10 @@ As personas do serviço FeedME são pessoas de diversas faixa etárias que possu
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Jose%20Carlos.png" alt="persona_Jose">
 
 > ## Mapa de Empatia 
-<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Mapa%20de%20empatia/Mapa%20de%20Empatia%20José%20Carlos.png" alt="mapa_de_empatia_Jose"
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Mapa%20de%20empatia/Mapa%20de%20Empatia%20José%20Carlos.png" alt="e_Jose"
  
 > ## Proposta de Valor
-<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Proposta%20de%20Valor/Proposta%20de%20Valor%20Jose%20Carlos.png" alt="proposta_de_valor_Jose"
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Proposta%20de%20Valor/Proposta%20de%20Valor%20Jose%20Carlos.png" alt="J"
 
 
 ## Histórias de Usuários
