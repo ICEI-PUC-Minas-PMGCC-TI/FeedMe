@@ -356,7 +356,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > A ferramenta de controle de versão adotada no projeto foi o
 > Git, sendo que o Github
