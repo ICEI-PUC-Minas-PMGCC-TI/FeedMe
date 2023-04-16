@@ -358,12 +358,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
 > A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+> Git, sendo que o Github
 > foi utilizado para hospedagem do repositório `upstream`.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
@@ -373,21 +369,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - `testing`: versão em testes do software
 > - `dev`: versão de desenvolvimento do software
 > 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+> Quanto à gerência de issues, cada um que está desenvolvendo possui a sua própria organização, mas todas as alterações respeitam a função dos branchs.
+> Os `issues` não foram utilizados no momento.
+> Os merges são utilizados juntamente com o pull request para segurança dos dados e verificação de mudanças.
+
+
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
