@@ -8,11 +8,6 @@ FeedME
 Ciencia da Cumputacao
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
 > - Vitor de Meira Gomes
 > - Giuseppe Sena Cordeiro
@@ -30,21 +25,14 @@ Ciencia da Cumputacao
 - [Estrutura do Documento](#estrutura-do-documento)
 
 - [Introdução](#introdução)
-Com o tempo, os restaurantes se tornaram um lugar para socializar melhor com as pessoas, além do mais, com a internet, as pessoas acabam ficando cada vez mais afastadas uma das outras.
-Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultando o atendimento dos garçons, com isso, os donos acabam tendo que contratar mais pessoas para suprir a necessidade das meses. Assim, surge nossa ideia, onde aborda os principais problemas dos restaurantes.
-	Tendo em vista os restaurantes locais, é nítido a instabilidade de acerto dos pratos, por mais que seja uma taxa elevada, ainda sim possui uma grande taxa de erros. Com isso, pensamos na ideia de um app onde facilite a solicitação dos pedidos, e torne cada vez mais rápida a entrega dos pratos ou bebidas.
   
   - [Problema](#problema)
-  No cotidiano, os restaurantes acabam trocando os pratos e as bebidas de forma a não serem coniventes com o pedido do cliente. Isso acaba gerando uma certa insatisfação no consumidor, vindo a reclamar ou até deixar uma avaliação negativa para o restaurante. Com isso a visibilidade do restaurante acaba caindo cada vez mais.
   
   - [Objetivos](#objetivos)
-   Acelerar e melhorar o método de pagamento e de entrega dos pratos das pessoas ate a mesa, funcionando de maneira que o cliente pede na mesa e a cozinha recebe direto o pedido. Para facilitar a entrega dos pratos, sem que aja a grande possibilidade de errar.
   
   - [Justificativa](#justificativa)
-  Sua confirmação ocorre quando o pagamento é efetuado, assim o processo de levar o prato a mesa fica mais simples, já que nao tera o problema de errar o prato por anotar o pedido errado, minimizando os erros
 
   - [Público-Alvo](#público-alvo)
-  Restaurantes de classe média baixa até alta.
 
 - [Especificações do Projeto](#especificações-do-projeto)
 
@@ -68,18 +56,7 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
   
 - [Metodologia](#metodologia)
   - [Divisão de Papéis](#divisão-de-papéis)
-  > Scrum Master
-  	- Vitor de Meira Gomes
-  
-  >Equipe de Desinvolvimento
-  	- Giuseppe Sena Cordeiro
-  	- João Vítor de Freitas Scarlatelli
-  	- Lorena Teles Trindade
-  	- Gabriel Maia Simões de Matos
-  	- Vitor de Meira Gomes
-  	
-  > Product Onwer
-  	- Giuseppe Sena Cordeiro
+
   - [Ferramentas](#ferramentas)
   
   - [Controle de Versão](#controle-de-versão)
@@ -87,17 +64,22 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
   
   
 - [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
+
 - [Projeto da Solução](#projeto-da-solução)
+
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  
   - [Arquitetura da solução](#arquitetura-da-solução)
+  
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
+
   - [Plano de Testes](#plano-de-testes)
+  
   - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
+  
   - [Registros de Testes](#registros-de-testes)
   
 - [Referências](#referências)
-	- Foi feita uma conversação com os integrantes do grupos sobre possíveis problemas que são enfrentados na empresa que são culpa da má gestão. Pós ter uma experiencia ruim em um restaurante, no qual o garçom demorou para atender, anotou pedido errado e a comida certa demorou muito tempo para chegar, um integrante compartilhou isso com o grupo, onde outros também tiveram experiencias parecidas. Afim de otimizar o atendimento em restaurantes e lanchonetes, tivemos a ideia de fazer um webapp que auxilia o garçom no atendimento.
-
 
 # Introdução
 
@@ -112,50 +94,16 @@ Com isso, ocorreu a superlotação em grande massa dos restaurantes, dificultand
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo do software é acelerar e melhorar o método de pagamento e de entrega dos pratos das pessoas até a mesa, funcionando de maneira que o cliente pede na mesa e a cozinha recebe direto o pedido. Para facilitar a entrega dos pratos, sem que aja a grande possibilidade de errar.
 
 ## Justificativa
 
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diariamente as pessoas acabam indo em restaurantes e pedindo suas comidas favoritas, e com isso, às vezes, acabam recebendo os pratos errados, de forma a trazer a infelicidade para as pessoas, o que leva ela a buscar uma melhor forma de pedir sua comida favorita. Por isso a ideia do aplicativo, onde as pessoas poderiam pedir a comida de uma forma mais fácil, e agilizar o processo de pagar as contas. Com isso, levando a atingir pessoas de classe média alta, que possuem uma mínima insatisfação com o restaurante, ate os mais ricos, que querem sua comida o mais fiel ao pedido.
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Com isso, levando a atingir pessoas de classe média alta, que possuem uma mínima insatisfação com o restaurante, ate os mais ricos, que querem sua comida o mais fiel ao pedido.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
