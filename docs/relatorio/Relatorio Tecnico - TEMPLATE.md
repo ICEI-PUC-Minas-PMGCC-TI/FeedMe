@@ -126,6 +126,8 @@ As personas do serviço FeedME são pessoas de diversas faixa etárias que possu
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](images/persona_Jose.png)
+> ## Persona José Carlos
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Jose%20Carlos.png" alt="persona_Jose">
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
@@ -251,8 +253,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Confirmação de pagamento
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/8.png" alt="fim_pagamento">
 
-## Persona José Carlos
-<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/Personas/Persona%20Jose%20Carlos.png" alt="persona_Jose">
 
 
 
