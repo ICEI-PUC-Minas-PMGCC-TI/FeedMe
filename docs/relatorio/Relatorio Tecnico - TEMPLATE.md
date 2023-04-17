@@ -181,7 +181,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| Sistema responsivo e com formato simples | MÉDIA | 
 |RNF-002| Sistema de notificações no email |  BAIXA |
 |RNF-003| Integrar diferentes linguagens | ALTA |
-|RNF-004| Modo de leitrua facilitada | MÉDIA |
+|RNF-004| Modo de leitura facilitada | MÉDIA |
 |RNF-005| Opção de gorjeta | BAIXA|
 
 
