@@ -102,7 +102,7 @@ O objetivo do software é acelerar e melhorar o método de pagamento e de entreg
 
 ## Justificativa
 
-Diariamente as pessoas acabam indo em restaurantes e pedindo suas comidas favoritas, e com isso, às vezes, acabam recebendo os pratos errados, de forma a trazer a infelicidade para as pessoas, o que leva ela a buscar uma melhor forma de pedir sua comida favorita. Por isso a ideia do aplicativo, onde as pessoas poderiam pedir a comida de uma forma mais fácil, e agilizar o processo de pagar as contas. Com isso, levando a atingir pessoas de classe média alta, que possuem uma mínima insatisfação com o restaurante, ate os mais ricos, que querem sua comida o mais fiel ao pedido.
+Diariamente as pessoas acabam indo em restaurantes e pedindo suas comidas favoritas, e com isso, às vezes, acabam recebendo os pratos errados, de forma a trazer a infelicidade para as pessoas, o que leva ela a buscar uma melhor forma de pedir sua comida favorita. Por isso a ideia do aplicativo, onde as pessoas poderiam pedir a comida de uma forma mais fácil, e agilizar o processo de pagar as contas. Com isso, levando a atingir pessoas de classe média alta, que possuem uma mínima insatisfação com o restaurante, até os mais ricos, que querem sua comida o mais fiel ao pedido.
 
 ## Público-Alvo
 
