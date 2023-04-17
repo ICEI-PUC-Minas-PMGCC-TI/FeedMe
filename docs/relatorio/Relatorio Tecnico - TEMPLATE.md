@@ -292,11 +292,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVMU6iLGg=/#tpicker-content | 
+|Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVMU6iLGg=/#tpicker-content | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/prototype/6aed4f7 | 
