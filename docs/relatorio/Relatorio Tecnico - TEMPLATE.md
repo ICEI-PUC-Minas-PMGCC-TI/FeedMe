@@ -279,7 +279,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Scrum Master
   	- Vitor de Meira Gomes
   
-  >Equipe de Desinvolvimento
+  >Equipe de Desenvolvimento
   	- Giuseppe Sena Cordeiro
   	- João Vítor de Freitas Scarlatelli
   	- Lorena Teles Trindade
