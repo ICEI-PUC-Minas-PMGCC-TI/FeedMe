@@ -170,7 +170,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Sistema de avaliação de restaurantes e pratos   | MÉDIA |
 |RF-003| Registro de conta | MÉDIA |
 |RF-004| Sistema de pagamento no site | ALTA |
-|RF-005| Sistema de recompensas no app | BAIXA |
+|RF-005| Sistema de recompensas no site | BAIXA |
 |RF-006| Sistema de comentários | MÉDIA |
 
 
