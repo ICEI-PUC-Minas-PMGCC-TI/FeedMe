@@ -263,7 +263,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Priorização de Ideias
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170348081.png" alt="priorizacao">
 
-## Murald de Possibilidades 
+## Mural de Possibilidades 
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/imagem_2023-04-16_170515574.png" alt="possibilidades">
 
 ## Brainstorming / Brainwriting
