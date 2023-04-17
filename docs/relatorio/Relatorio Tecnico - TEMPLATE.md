@@ -221,7 +221,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Lista de restaurantes disponíveis
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/3.png" alt="lista_restaurantes">
 
-## Cardapio digital
+## Cardápio digital
 <img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/imgs%20projeto%20de%20interface/4.png" alt="cardapio">
 
 ## Modificações do pedido
