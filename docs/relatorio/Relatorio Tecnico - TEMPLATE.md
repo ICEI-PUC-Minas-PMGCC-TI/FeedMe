@@ -111,12 +111,7 @@ Com isso, levando a atingir pessoas de classe média alta, que possuem uma míni
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
+ Nesta seção será apresentado à quem este serviço irá beneficiar. Através das personas, dos mapas de empatia, propostas de valor e a história dos usuário, é possível contextualizar quem será o usuário. Também é apresentado os requisitos e restrições da criação do projeto, visando mostrar com detalhes o foco do projeto, assim como possíveis dificuldades e limitações.
 ## Personas, Empatia e Proposta de Valor
 
 As personas do serviço FeedME são pessoas de diversas faixa etárias que possuem problemas com a demora do atendimento em restaurantes e a baixa taxa de sucesso na entrega dos pratos. Este serviço presta ajuda tanto para as personas de clientes, como também para personas de gerentes de estabelecimentos.
