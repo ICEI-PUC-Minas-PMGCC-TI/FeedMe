@@ -10,66 +10,66 @@
     <link rel="stylesheet" href="style_quemsomos.css">
     <script src="cadastroR.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <title>FeedME</title>
 </head>
 <body onload="init()">
 
-    <header class="p-3 m-0 border-0 bd-example">
+    <body class="p-3 m-0 border-0 bd-example">
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link fs-4"href="index.html">Pagina Inicial</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-4" href="#">|~ Sugestão aqui ~|</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-4" href="restaurantes.html">Restaurantes</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Cadastros
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="cadastro.html">Restaurantes</a></li>
-                      <li><a class="dropdown-item" href="compras.html">Produtos</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Perfil
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="carteira.html">Carteira</a></li>
-                      <li><a class="dropdown-item" href="compras.html">Histórico de compras</a></li>
-                      <li><a class="dropdown-item" href="#">Recompensas</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Linguagem
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Português Brasil</a></li>
-                      <li><a class="dropdown-item" href="#">Inglês </a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-4" href="quemsomos.html">Quem somos</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" Id_traducao="Restaurante" href="restaurantes.html">Restaurantes</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cadastros
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" Id_traducao="Restaurante" href="AddRestaurante.html">Restaurantes</a></li>
+                    <li><a class="dropdown-item" Id_traducao="Produtos" href="AddProduto.html">Produtos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Perfil
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" Id_traducao="Carteira" href="carteira.html">Carteira</a></li>
+                    <li><a class="dropdown-item" Id_traducao="Historico" href="compras.html">Histórico de compras</a></li>
+                    <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-4" Id_traducao="Linguagem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Linguagem
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="translate-button dropdown-item" Id_traducao="Pt" href="#">Português Brasil</a></li>
+                    <li><a class="translate-button dropdown-item" Id_traducao="En" href="#">Inglês </a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" Id_traducao="QuemSomos" href="quemsomos.html">Quem somos</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
       </header>
       
 
@@ -320,7 +320,7 @@
     </div>
 
   </footer>
-
+  <script src="traducao.js"></script>
 </body>
 
 </html>
