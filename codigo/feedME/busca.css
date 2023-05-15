@@ -1,0 +1,216 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e7e7e7b2;
+}
+
+header {
+    background-color: #efad06;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e0e0e0;
+}
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+main {
+    margin-top: 110px;
+    padding: 20px;
+    flex-grow: 1;
+    width: 80%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #efad06;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #f6b717;
+}
+
+
+
+footer {
+    background-color: #efad06;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+/* responsividade */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        width: 95%;
+        margin-top: 150px;
+    }
+
+    form {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+
+    #restaurantes div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #restaurantes div h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #restaurantes div img {
+        margin: auto;
+    }
+}
+/* edição do bloco de java*/
+#restaurantes div {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    transition: transform 0.3s ease;
+}
+
+#restaurantes div:hover {
+    transform: scale(1.03);
+}
+
+#restaurantes div img {
+    border-radius: 50%; /* Faz a imagem ficar em formato de círculo */
+    width: 80px; /* Define a largura da imagem */
+    height: 80px; /* Define a altura da imagem */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível, cortando se necessário */
+    margin-right: 20px; /* Adiciona uma margem à direita da imagem para separá-la do texto */
+}
+
+#restaurantes div .text-container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+}
+
+#restaurantes div h3 {
+    color: #333; /* Muda a cor do texto para um cinza escuro */
+    font-size: 1.5em; /* Aumenta o tamanho do texto */
+    margin: 0 0 0.5em 0; /* Adiciona uma margem abaixo do título */
+}
+
+#restaurantes div p {
+    margin: 0; /* Remove a margem do parágrafo */
+}
+
+#restaurantes div p:last-child {
+    color: #ff0; /* Muda a cor das estrelas para amarelo */
+    margin-top: 0.5em; /* Adiciona uma margem acima do último parágrafo */
+}
+a {
+    color: inherit; /* Faz com que os links herdem a cor do texto ao redor */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
