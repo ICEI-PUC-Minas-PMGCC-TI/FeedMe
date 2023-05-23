@@ -1,3 +1,130 @@
+function exibeContatos() {
+    // Remove todas as linhas do corpo da tabela
+    $("#table-contatos").html("");
+
+    // Popula a tabela com os registros do banco de dados
+    for (i = 0; i < db.data.length; i++) {
+        let contato = db.data[i];    
+        $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                        <td>${contato.restaurante}</td>
+                                        <td>${contato.produto}</td>
+                                        <td>${contato.preço}</td>
+                                        <td>${contato.descrição}</td>
+                                        <td>${contato.tamanho}</td>
+                                    </tr>`);
+    }
+}
+
+function init() {
+    // Adiciona funções para tratar os eventos 
+    $("#btnInsert").click(function () {
+        // Verfica se o formulário está preenchido corretamente
+        if (!$('#form-contato')[0].checkValidity()) {
+            displayMessage("Preencha o formulário corretamente.");
+            return;
+        }
+
+        // Obtem os valores dos campos do formulário
+        let campoRestaurante = $("#inputRestaurante").val();
+        let campoProduto = $("#inputProduto").val();
+        let campoPreço = $('#inputPreço').val();
+        let campoDescrição = $("#inputDescrição").val();
+        let campoTamanho = $('#inputTamanho').val();
+        let campoimage = 'https://img.freepik.com/vetores-gratis/lhama-bonito-negocios-icon-ilustracao-personagem-de-desenho-animado-de-mascote-de-alpaca-conceito-de-icone-animal-isolado_138676-989.jpg?w=2000';
+        let contato = { restaurante: campoRestaurante, 
+            produto: campoProduto, 
+            preço: campoPreço, 
+            descrição: campoDescrição, 
+            tamanho: campoTamanho, 
+            foto: campoimage
+        }
+
+        insertContato(contato);
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+    });
+
+    // Intercepta o click do botão Alterar
+    $("#btnUpdate").click(function () {
+        // Obtem os valores dos campos do formulário
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+            displayMessage("Selecione um contato para ser alterado.");
+            return;
+        }
+        let campoRestaurante = $("#inputRestaurante").val();
+        let campoProduto = $("#inputProduto").val();
+        let campoPreço = $("#inputPreço").val();
+        let campoDescrição = $("#inputDescrição").val();
+        let campoTamanho = $("#inputTamanho").val();
+        let campoimage = 'https://img.freepik.com/vetores-gratis/lhama-bonito-negocios-icon-ilustracao-personagem-de-desenho-animado-de-mascote-de-alpaca-conceito-de-icone-animal-isolado_138676-989.jpg?w=2000'; 
+        let contato = { restaurante: campoRestaurant, 
+            produto: campoProduto, 
+            preço: campoPreço, 
+            descrição: campoDescrição, 
+            tamanho: campoTamanho,
+            foto: campoimage 
+        };
+
+        updateContato(parseInt(campoId), contato);
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+    });
+
+    // Intercepta o click do botão Excluir
+    $("#btnDelete").click(function () {
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+            displayMessage("Selecione um contato a ser excluído.");
+            return;
+        }
+        deleteContato(parseInt(campoId));
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+    });
+
+    // Intercepta o click do botão Listar Contatos
+    $("#btnClear").click(function () {
+        $("#form-contato")[0].reset();
+    });
+
+    // Oculta a mensagem de aviso após alguns segundos
+    $('#msg').bind("DOMSubtreeModified", function () {
+        window.setTimeout(function () {
+            $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                $(this).remove();
+            });
+        }, 5000);
+    });
+
+    // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+    $("#grid-contatos").on("click", "tr", function (e) {
+        let linhaContato = this;
+        colunas = linhaContato.querySelectorAll("td");
+
+        $("#inputId").val(colunas[0].innerText);
+        $("#inputRestaurant").val(colunas[1].innerText);
+        $("#inputProduto").val(colunas[2].innerText);
+        $("#inputPreço").val(colunas[3].innerText);
+        $("#inputDescrição").val(colunas[4].innerText);
+        $("#inputTamanho").val(colunas[5].innerText)
+    });
+
+    exibeContatos();
+}
+
 // declara um conjunto inicial de contatos
 var db_contatos_inicial = {
     "data": [
