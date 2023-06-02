@@ -214,3 +214,7 @@ a {
     color: inherit; /* Faz com que os links herdem a cor do texto ao redor */
     text-decoration: none; /* Remove o sublinhado dos links */
 }
+#filtros input[type="checkbox"] {
+    margin-right: 5px;
+}
+
