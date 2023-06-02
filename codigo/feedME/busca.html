@@ -10,29 +10,50 @@
 <body>
     <header>
         <h1>Encontre seu restaurante favorito!</h1>
-       
     </header>
     <main>
         <section>
-            
             <form id="form-busca" action="#" method="get">
-               
-                <input type="text" id="busca" name="busca">
+                <input type="text" id="busca" name="busca" autocomplete="off">
                 <input type="submit" value="Buscar">
             </form>
+            <div id="filtros">
+                <input type="checkbox" id="fast-food" name="fast-food">
+                <label for="fast-food">Fast Food</label>
+                <input type="checkbox" id="frutos-mar" name="frutos-mar">
+                <label for="frutos-mar">Frutos do Mar</label>
+                <input type="checkbox" id="pizza" name="pizza">
+                <label for="pizza">Pizza</label>
+                <input type="checkbox" id="lanches" name="lanches">
+                <label for="lanches">Lanches</label>
+                <input type="checkbox" id="cozinha-brasileira" name="cozinha-brasileira">
+                <label for="cozinha-brasileira">Cozinha Brasileira</label>
+                <input type="checkbox" id="cozinha-italiana" name="cozinha-italiana">
+                <label for="cozinha-italiana">Cozinha Italiana</label>
+                <!-- Adicione mais caixas de seleção para outros tipos de comida -->
+            </div>
         </section>
         <section id="resultados">
             <h2>Resultados da Busca</h2>
             <div id="restaurantes">
-                <!-- Restaurantes serão exibidos aqui com JAVA -->
+                <!-- Restaurantes serão exibidos aqui com JavaScript -->
             </div>
         </section>
-   
-        
     </main>
     <footer>
         <p>Busca de Restaurantes &copy; 2023</p>
     </footer>
     <script src="Busca.js"></script>
+    <script>
+        function obterFiltrosSelecionados() {
+            var filtrosSelecionados = [];
+            document.querySelectorAll('#filtros input[type="checkbox"]:checked').forEach(function(checkbox) {
+                filtrosSelecionados.push(checkbox.id);
+            });
+            return filtrosSelecionados;
+        }
+
+
+   </script>
 </body>
 </html>
