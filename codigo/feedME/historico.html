@@ -13,7 +13,7 @@
   <title>FeedME</title>
 </head>
 
-<body class="p-3 m-0 border-0 bd-example">
+<body onload="init()" class="p-3 m-0 border-0 bd-example">
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -68,3 +68,33 @@
     </div>
   </nav>
   <script src="traducao.js"></script>
+  <script src="cadastroP.js"></script>
+  
+<section>
+  <div class="container">
+  <h1 Id_historico="historico" class="heading">Histórico de compras</h1>
+  <div class="row">
+    <div class="col-sm-12">
+        <table id="grid-contatos" class="table table-striped">
+            <thead>
+                <tr>
+                    <th Id_traducao="NomeRest" scope="col">Nome do Restaurante</th>
+                    <th Id_traducao="NomeProd" scope="col">Produto</th>
+                    <th Id_traducao="preco" scope="col">Preço</th>
+                </tr>
+            </thead>
+            <tbody id="table-contatos">
+                <tr>
+                    <td scope="row">1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </section>
+  <script src="traducao.js"></script>
+  <script src="historico.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </body>
+  </html>
