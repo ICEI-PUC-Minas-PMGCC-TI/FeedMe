@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
-    <title>FeedME</title>
+    <title>Definições</title>
 </head>
 
 <body class="p-3 m-0 border-0 bd-example">
@@ -69,36 +69,38 @@
         </div>
     </nav>
 
-    <div class="index_container">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="subcontainer col-md-5">
+
+
+    <div class="container px-4 defin_container">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 col_item">
+                    <h1 Id_traducao="EscMod" Id_traducao="EscMod" class="heading text-center">Escolha a linguagem</h1>
+                    <br>
+                    <button class="translate-button" Id_traducao="Pt"></button>
+                    <button class="translate-button" Id_traducao="En"></button>
+                    <button class="translate-button" Id_traducao="It"></button>
+                    <button class="translate-button" Id_traducao="Fr"></button>
+                    <button class="translate-button" Id_traducao="Jp"></button>
                 </div>
-                <div class="col-md-2">
-                    <img src="imagens/imglogo.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="200px">
-                </div>
-                <div class="subcontainer col-md-5">
+            </div>
+            <div class="col">
+                <div class="p-3 col_item">
+                    <h1 Id_traducao="EscEst" class="heading text-center">Escolha o estilo</h1><br>
+                    <button class="translate-button" Id_traducao="ModCl" onclick="carregarTema('tema-claro')">Modo
+                        claro</button>
+                    <button class="translate-button" Id_traducao="ModEs" onclick="carregarTema('tema-escuro')">Modo
+                        escuro</button>
+                    <button class="translate-button" Id_traducao="ModAz" onclick="carregarTema('tema-paleta1')">Modo
+                        escuro</button>
+                    <button class="translate-button" Id_traducao="ModVerm" onclick="carregarTema('tema-paleta2')">Modo
+                        escuro</button>
+                    <button class="translate-button" Id_traducao="ModVerd" onclick="carregarTema('tema-paleta3')">Modo
+                        escuro</button>
+
                 </div>
             </div>
         </div>
-        <br>
-        <h1 Id_traducao="BemVindo" class="text-center">🧑‍🍳Bem vindo(a) ao FeedME!🧑‍🍳</h1>
-        <p Id_traducao="Subtexto1_Index" class="text-center fs-3 text"><i>Uma forma rápida e prática de te auxiliar no
-                pagamento de pedidos nos diversos
-                restaurantes do Brasil.</i></p>
-        <br>
-        <img src="imagens/iamgem_pagamento.jpg" alt="pagamento" class="img-fluid rounded mx-auto d-block" width="500px">
-        <br>
-        <h1 Id_traducao="Subtexto2_Index" class="text-center">Revolucionando na forma de pedir comida.</h1>
-        <p Id_traducao="Subtexto3_Index" class="text-center fs-3 text">Com o nosso site, você se torna capaz de fazer
-            seus
-            pedidos nos restaurantes direto
-            da sua mesa, sem precisar de um atendente, facilitando na hora de visualizar os pedidos e podendo realizar o
-            pagamento de forma mais prática e eficiante, tirando o fato de reduzir as chances do seu pedido vir errado,
-            uma
-            vez que o pedido é encaminhado diretamente para o sistema do restaurante da forma que você escolheu!</p>
-
-
     </div>
 
     <script src="paleta.js"></script>

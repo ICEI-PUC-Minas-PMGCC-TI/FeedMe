@@ -1,0 +1,52 @@
+{
+  "tema-claro": {
+    "--cor-de-fundo": "#BFA58C",
+    "--cor-texto": "#000000",
+    "--cor-borda": "#000000",
+    "--cor-caixa": "#3f2c2c3f",
+    "--cor-qmsomos": "#FFFFFF",
+    "--a1": "#4E3333",
+    "--a2": "#634141",
+    "--a3": "#7F5454"
+  },
+  "tema-escuro": {
+    "--cor-de-fundo": "#121212",
+    "--cor-texto": "#FFFFFF",
+    "--cor-borda": "#FFFFFF",
+    "--cor-caixa": "#1E1E1E",
+    "--cor-qmsomos": "#121212",
+    "--a1": "#4E4E4E",
+    "--a2": "#636363",
+    "--a3": "#7F7F7F"
+  },
+  "tema-paleta1": {
+    "--cor-de-fundo": "#9CB3C6",
+    "--cor-texto": "#000000",
+    "--cor-borda": "#000000",
+    "--cor-caixa": "#3343543f",
+    "--cor-qmsomos": "#FFFFFF",
+    "--a1": "#33454E",
+    "--a2": "#43636B",
+    "--a3": "#547F88"
+  },
+  "tema-paleta2": {
+    "--cor-de-fundo": "#D6A8A1",
+    "--cor-texto": "#000000",
+    "--cor-borda": "#000000",
+    "--cor-caixa": "#543f3f3f",
+    "--cor-qmsomos": "#FFFFFF",
+    "--a1": "#543434",
+    "--a2": "#6B4545",
+    "--a3": "#885454"
+  },
+  "tema-paleta3": {
+    "--cor-de-fundo": "#AACCA9",
+    "--cor-texto": "#000000",
+    "--cor-borda": "#000000",
+    "--cor-caixa": "#B8D5B7",
+    "--cor-qmsomos": "#FFFFFF",
+    "--a1": "#808080",
+    "--a2": "#47A025",
+    "--a3": "#999999"
+  }
+}

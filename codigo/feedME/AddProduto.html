@@ -1,156 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos/sytle.css">
-    <link rel="stylesheet" href="estilos/style_quemsomos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <title>FeedME</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos/sytle.css">
+  <link rel="stylesheet" href="estilos/style_quemsomos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <title>FeedME</title>
 </head>
+
 <body onload="init()" class="p-3 m-0 border-0 bd-example">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" Id_traducao="Restaurante" href="restaurantes.html">Restaurantes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Cadastros
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4" Id_traducao="Restaurante" href="restaurantes.html">Restaurantes</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cadastros
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" Id_traducao="Restaurante" href="AddRestaurante.html">Restaurantes</a></li>
-                    <li><a class="dropdown-item" Id_traducao="Produtos" href="AddProduto.html">Produtos</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Perfil
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" Id_traducao="Carteira" href="carteira.html">Carteira</a></li>
-                    <li><a class="dropdown-item" Id_traducao="Historico" href="historico.html">Histórico de compras</a></li>
-                    <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fs-4" Id_traducao="Linguagem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Linguagem
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="translate-button dropdown-item" Id_traducao="Pt" href="#">Português Brasil</a></li>
-                    <li><a class="translate-button dropdown-item" Id_traducao="En" href="#">Inglês </a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4" Id_traducao="QuemSomos" href="quemsomos.html">Quem somos</a>
-                </li>
-              </ul>
-            </div>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" Id_traducao="Restaurante" href="AddRestaurante.html">Restaurantes</a></li>
+              <li><a class="dropdown-item" Id_traducao="Produtos" href="AddProduto.html">Produtos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" Id_traducao="Perfil" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Perfil
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" Id_traducao="Carteira" href="carteira.html">Carteira</a></li>
+              <li><a class="dropdown-item" Id_traducao="Historico" href="compras.html">Histórico de
+                  compras</a></li>
+              <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" Id_traducao="Definicoes" href="definicoes.html">Definições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" Id_traducao="QuemSomos" href="quemsomos.html">Quem somos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="index_container">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="msg" class="col-sm-10 offset-sm-1 ">
+
+        </div>
+      </div>
+
+      <form id="form-contato">
+        <div class="form-group row">
+          <div class="col-sm-4 mb-4">
+            <label Id_traducao="Id" for="inputId">Id</label>
+            <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
           </div>
-        </nav>
-      
-
-    <div class="index_container">
-      <div class="container-fluid">
-        <div class="row">
-            <div id="msg" class="col-sm-10 offset-sm-1 ">
-
-            </div>
+          <div class="col-sm-8">
+            <label Id_traducao="Id" for="inputNome">Nome do Restaurante (*)</label>
+            <input type="text" class="form-control" id="inputRestaurante" required
+              placeholder="Informe o nome do restaurante">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-7 mb-4">
+            <label Id_traducao="NomeRes" for="inputTelefone">Nome do produto (*)</label>
+            <input type="text" class="form-control" id="inputProduto" required placeholder="Informe o nome do produto">
+          </div>
+          <div class="col-sm-5 mb-4">
+            <label Id_traducao="preco" for="inputEmail">Preço (*)</label>
+            <input type="email" class="form-control" id="inputPreço" required placeholder="Digite o preço em reais">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-6 mb-4">
+            <label Id_traducao="Brevedesc" for="inputpet">Breve descrição </label>
+            <input type="text" class="form-control" id="inputDescrição" placeholder="Escreva uma breve descrição">
+          </div>
+          <div class="col-sm-6 mb-4">
+            <label Id_traducao="Tamanho" for="inputCategoria">Tamanho (*)</label>
+            <input type="text" class="form-control" id="inputTamanho" required
+              placeholder="Quantas pessoas o prato serve">
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <small Id_traducao="camposObrig">(*) Campos obrigatórios</small>
         </div>
 
-        <form id="form-contato">
-            <div class="form-group row">
-                <div class="col-sm-4 mb-4">
-                    <label Id_traducao="Id" for="inputId">Id</label>
-                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
-                </div>
-                <div class="col-sm-8">
-                    <label Id_traducao="Id" for="inputNome">Nome do Restaurante (*)</label>
-                    <input type="text" class="form-control" id="inputRestaurante" required placeholder="Informe o nome do restaurante">
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-7 mb-4">
-                    <label Id_traducao="NomeRes" for="inputTelefone">Nome do produto (*)</label>
-                    <input type="text" class="form-control" id="inputProduto" required placeholder="Informe o nome do produto">
-                </div>
-                <div class="col-sm-5 mb-4">
-                    <label Id_traducao="preco" for="inputEmail">Preço (*)</label>
-                    <input type="email" class="form-control" id="inputPreço" required placeholder="Digite o preço em reais">
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-6 mb-4">
-                    <label Id_traducao="Brevedesc" for="inputpet">Breve descrição </label>
-                    <input type="text" class="form-control" id="inputDescrição"  placeholder="Escreva uma breve descrição" >
-                </div>
-                <div class="col-sm-6 mb-4">
-                    <label Id_traducao="Tamanho" for="inputCategoria">Tamanho (*)</label>
-                    <input type="text" class="form-control" id="inputTamanho" required placeholder="Quantas pessoas o prato serve">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <small Id_traducao="camposObrig">(*) Campos obrigatórios</small>
-            </div>
-            
-            <div class="form-group row">
-                <div class="col-sm-12">
-                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
-                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
-                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
-                </div>
-            </div>
-        </form>
+        <div class="form-group row">
+          <div class="col-sm-12">
+            <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+            <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+            <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+            <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+          </div>
+        </div>
+      </form>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <table id="grid-contatos" class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th Id_traducao="Id" scope="col">#</th>
-                            <th Id_traducao="NomeRes" scope="col">Restaurante</th>
-                            <th Id_traducao="NomeProd" scope="col">Produto</th>
-                            <th Id_traducao="preco" scope="col">Preço</th>
-                            <th Id_traducao="Brevedesc" scope="col">Descrição</th>
-                            <th Id_traducao="Tamanho" scope="col">Tamanho</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-contatos">
-                        <tr>
-                            <td scope="row">1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="grid-contatos" class="table table-striped">
+            <thead>
+              <tr>
+                <th Id_traducao="Id" scope="col">#</th>
+                <th Id_traducao="NomeRes" scope="col">Restaurante</th>
+                <th Id_traducao="NomeProd" scope="col">Produto</th>
+                <th Id_traducao="preco" scope="col">Preço</th>
+                <th Id_traducao="Brevedesc" scope="col">Descrição</th>
+                <th Id_traducao="Tamanho" scope="col">Tamanho</th>
+              </tr>
+            </thead>
+            <tbody id="table-contatos">
+              <tr>
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
+  </div>
 
 
+  <script src="paleta.js"></script>
+  <script src="styles.json"></script>
   <script src="traducao.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="cadastroP.js"></script>
