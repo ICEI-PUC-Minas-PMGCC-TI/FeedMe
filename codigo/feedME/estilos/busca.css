@@ -184,37 +184,46 @@ footer {
 }
 
 #restaurantes div img {
-    border-radius: 50%; /* Faz a imagem ficar em formato de círculo */
-    width: 80px; /* Define a largura da imagem */
-    height: 80px; /* Define a altura da imagem */
-    object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível, cortando se necessário */
-    margin-right: 20px; /* Adiciona uma margem à direita da imagem para separá-la do texto */
+    border-radius: 50%; 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    margin-right: 20px; 
 }
 
 #restaurantes div .text-container {
     display: flex;
-    flex-direction: column; /* Organiza os itens em coluna */
+    flex-direction: column; 
 }
 
 #restaurantes div h3 {
-    color: #333; /* Muda a cor do texto para um cinza escuro */
-    font-size: 1.5em; /* Aumenta o tamanho do texto */
-    margin: 0 0 0.5em 0; /* Adiciona uma margem abaixo do título */
+    color: #333; 
+    font-size: 1.5em; 
+    margin: 0 0 0.5em 0; 
 }
 
 #restaurantes div p {
-    margin: 0; /* Remove a margem do parágrafo */
+    margin: 0; 
 }
 
 #restaurantes div p:last-child {
-    color: #ff0; /* Muda a cor das estrelas para amarelo */
-    margin-top: 0.5em; /* Adiciona uma margem acima do último parágrafo */
+    color: #ff0; 
+    margin-top: 0.5em; 
 }
 a {
-    color: inherit; /* Faz com que os links herdem a cor do texto ao redor */
-    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; 
+    text-decoration: none; 
 }
+
+
+#filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
 #filtros input[type="checkbox"] {
     margin-right: 5px;
 }
-
