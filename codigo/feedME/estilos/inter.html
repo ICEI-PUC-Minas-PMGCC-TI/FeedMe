@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Prato</title>
+    <link rel="stylesheet" href="estilos\styleinter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dish-detail">
+            <img id="dish-image" src="" alt="Imagem do prato">
+            <h1 id="dish-name"></h1>
+            <p id="dish-description"></p>
+            <p id="dish-price"></p>
+            <div class="quantity">
+                <button onclick="decreaseQuantity()">-</button>
+                <input id="quantity" type="number" value="1" min="1">
+                <button onclick="increaseQuantity()">+</button>
+            </div>
+            <button id="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    <script src="inter.js"></script>
+</body>
+</html>
