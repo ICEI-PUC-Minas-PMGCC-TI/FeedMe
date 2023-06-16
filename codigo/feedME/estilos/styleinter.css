@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.dish-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.dish-detail img {
+    width: 70%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dish-detail h1 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #B22222;
+    width: 100%;
+}
+
+.dish-detail p {
+    color: #333333;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.dish-detail .quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    order: 3;
+}
+
+.dish-detail .quantity button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #B22222;
+    cursor: pointer;
+}
+
+.dish-detail .quantity input {
+    width: 50px;
+    text-align: center;
+}
+
+#add-to-cart {
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
+    background-color: #B22222;
+    cursor: pointer;
+    order: 4;
+    margin-left: auto;
+    display: block;
+}
