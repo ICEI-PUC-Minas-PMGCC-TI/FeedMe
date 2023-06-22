@@ -1,12 +1,12 @@
 var bancoDeDados = [
     { id: 'maria-das-trancas', nome: 'Restaurante Maria das tranças', tipo: 'cozinha-brasileira', foto: '03_OLGA_NUR_Foto_por_Gabriel_Castro.png', descricao: 'Endereço: Rua da Trança, 123, Cidade Alta, Número: (31) 1234-5678', avaliacao: 4.5 },
-    { id: 'kinto-do-ouro', nome: 'Restaurante Kinto do Ouro', tipo: 'cozinha-italiana', foto: 'foto kinto.jpg', descricao: 'Endereço: Avenida do Ouro, 456, Bairro dos Metais, Número: (31) 2345-6789', avaliacao: 4 },
+    { id: 'kinto-do-ouro', nome: 'Restaurante Kinto do Ouro', tipo: 'cozinha-italiana', foto: 'foto_kinto.jpg', descricao: 'Endereço: Avenida do Ouro, 456, Bairro dos Metais, Número: (31) 2345-6789', avaliacao: 4 },
     { id: 'assados-maia', nome: 'Restaurante Assados do Giu', tipo: 'cozinha-brasileira', foto: 'Loup.png', descricao: 'Endereço: Rua da Carne Assada, 789, Bairro dos Chefs, Número: (31) 3456-7890', avaliacao: 3 },
-    { id: 'Restaurante Tira-Dentes', nome: 'Restaurante Tira-Dentes', tipo: 'cozinha-brasileira', foto: 'Foto_Jomar_Bragança_(18).jpg', descricao: 'Endereço: Rua da Carne Assada, 789, Bairro dos Chefs, Número: (31) 3456-7890', avaliacao: 3 },
+    { id: 'Restaurante Tira-Dentes', nome: 'Restaurante Tira-Dentes', tipo: 'cozinha-brasileira', foto: 'Foto_Jomar_Braganca_18.jpg', descricao: 'Endereço: Rua da Carne Assada, 789, Bairro dos Chefs, Número: (31) 3456-7890', avaliacao: 3 },
     { id: 'McDonalds', nome: 'McDonalds', tipo: 'fast-food' ,foto:'marca-mcdonalds-logo-1200x670.png', descricao:'Endereço: Rua do Molho Especial, 28, Bairro da Carne, Número: (31) 1234-9876', avaliacao: 4 },
-    { id: 'Pizza Hut', nome: 'Pizza Hut', tipo: 'pizza' ,foto:'pizza hut.png', descricao: 'Endereço: Rua das Pizzas, 11, Bairro da Calabresa, Número: (31) 3145-7022', avaliacao: 5},
-    { id: 'Coco Bambu', nome:'Coco Bambu', tipo: 'frutos-mar', foto: 'coco bambu.png', descricao: 'Endereço: Rua dos Camarões, 231, Bairro da Lagosta, Número: (31) 7023-4059', avaliacao: 5},
-    { id: 'Boca do Forno', nome: 'Boca do Forno', tipo: 'lanches', foto:'boca do forno JPEG.jpg', descricao: 'Endereço: Rua das Tortas, 452, Bairro dos Salgados, Número: (31) 7031-5408', avaliacao: 4},
+    { id: 'Pizza Hut', nome: 'Pizza Hut', tipo: 'pizza' ,foto:'pizza_hut.png', descricao: 'Endereço: Rua das Pizzas, 11, Bairro da Calabresa, Número: (31) 3145-7022', avaliacao: 5},
+    { id: 'Coco Bambu', nome:'Coco Bambu', tipo: 'frutos-mar', foto: 'coco_bambu.png', descricao: 'Endereço: Rua dos Camarões, 231, Bairro da Lagosta, Número: (31) 7023-4059', avaliacao: 5},
+    { id: 'Boca do Forno', nome: 'Boca do Forno', tipo: 'lanches', foto:'boca_do_forno_JPEG.jpg', descricao: 'Endereço: Rua das Tortas, 452, Bairro dos Salgados, Número: (31) 7031-5408', avaliacao: 4},
   ];
   
   var fuse = new Fuse(bancoDeDados, {

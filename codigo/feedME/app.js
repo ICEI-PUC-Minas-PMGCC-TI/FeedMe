@@ -77,7 +77,7 @@ const data = {
 function appendFrag(frag, parent) {
   var children = [].slice.call(frag.childNodes, 0);
   parent.appendChild(frag);
-  
+
   return children[1];
 }
 
@@ -181,7 +181,7 @@ const createCommentNode = (commentObject) => {
       } else {
         path.removeAttribute("contenteditable");
       }
-      
+
     });
     return commentNode;
   }
@@ -190,14 +190,14 @@ const createCommentNode = (commentObject) => {
 
 const appendComment = (parentNode, commentNode, parentId) => {
   const bu_reply = commentNode.querySelector(".reply");
-  
+
   const appendedCmnt = appendFrag(commentNode, parentNode);
   const replyTo = appendedCmnt.querySelector(".usr-name").textContent;
   bu_reply.addEventListener("click", () => {
     if (parentNode.classList.contains("replies")) {
       spawnReplyInput(parentNode, parentId, replyTo);
     } else {
-      
+
       spawnReplyInput(
         appendedCmnt.querySelector(".replies"),
         parentId,
