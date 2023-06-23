@@ -23,56 +23,68 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" Id_traducao="Restaurante" href="restaurantes.html">Restaurantes</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Cadastros
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" Id_traducao="Restaurante" href="AddRestaurante.html">Restaurantes</a></li>
-              <li><a class="dropdown-item" Id_traducao="Produtos" href="AddProduto.html">Produtos</a></li>
+                    <!-- index -->
+        <a class="navbar-brand" href="index.html">
+            <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!-- index -->
+                    <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <!-- restaurantes -->
+                    <a class="nav-link fs-4" Id_traducao="Restaurante" href="./HTML/restaurantes.html">Restaurantes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Cadastros
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- AddRestaurante -->
+                        <li><a class="dropdown-item" Id_traducao="Restaurante"
+                                href="./HTML/AddRestaurante.html">Restaurantes</a></li>
+                        <!-- AddProduto -->
+                        <li><a class="dropdown-item" Id_traducao="Produtos" href="./HTML/AddProduto.html">Produtos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-4" Id_traducao="Perfil" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Perfil
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- CARTEIRA -->
+                        <li><a class="dropdown-item" Id_traducao="Carteira" href="./HTML/carteira.html">Carteira</a></li> <!-- inesistente -->
+                        <!-- COMPRAS -->
+                        <li><a class="dropdown-item" Id_traducao="Historico" href="./HTML/compras.html">Histórico de
+                                compras</a></li>
+                        <!-- RECOMPENSA -->
+                        <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <!-- DEFINICOES -->
+                    <a class="nav-link fs-4" Id_traducao="Definicoes" href="./HTML/definicoes.html">Definições</a>
+                </li>
+                <li class="nav-item">
+                    <!-- BUSCA -->
+                    <a class="nav-link fs-4" Id_traducao="Busca" href="./HTML/busca.html">Busca</a>
+                </li>
+                <li class="nav-item">
+                    <!-- QUEM SOMOS -->
+                    <a class="nav-link fs-4" Id_traducao="QuemSomos" href="./HTML/quemsomos.html">Quem somos</a>
+                </li>
             </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-4" Id_traducao="Perfil" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Perfil
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" Id_traducao="Carteira" href="carteira.html">Carteira</a></li>
-              <li><a class="dropdown-item" Id_traducao="Historico" href="compras.html">Histórico de
-                  compras</a></li>
-              <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" Id_traducao="Definicoes" href="definicoes.html">Definições</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" Id_traducao="Busca" href="busca.html">Busca</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" Id_traducao="QuemSomos" href="quemsomos.html">Quem somos</a>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
-  </nav>
+</nav>
 
   <!-- SCRIPTS -->
   <script src="paleta.js"></script>

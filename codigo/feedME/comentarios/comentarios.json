@@ -1,0 +1,68 @@
+{
+  "currentUser": {
+    "image": { 
+      "png": "./images/avatars/image-juliusomo.png",
+      "webp": "./images/avatars/image-juliusomo.webp"
+    },
+    "username": "user"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "O restaurante do claudinei e incrivel! Mas honestamente eu cozinho melhor.",
+      "createdAt": "1 mes atras",
+      "score": 12,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/image-amyrobson.png",
+          "webp": "./images/avatars/image-amyrobson.webp"
+        },
+        "username": "Tinoco"
+      },
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "o frango grelhado nao estava dos melhores",
+      "createdAt": "2 semanas atras",
+      "score": 5,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/image-maxblagun.png",
+          "webp": "./images/avatars/image-maxblagun.webp"
+        },
+        "username": "Erick"
+      },
+      "replies": [
+        {
+          "id": 3,
+          "content": "que isso po, eu achei ele perfeito",
+          "createdAt": "1 semana atras",
+          "score": 4,
+          "replyingTo": "Erick",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/image-ramsesmiron.png",
+              "webp": "./images/avatars/image-ramsesmiron.webp"
+            },
+            "username": "JOOJ"
+          }
+        },
+        {
+          "id": 4,
+          "content": "a consistencia da crocancia do frengo, nao existe coisa melhor.",
+          "createdAt": "2 dias atras",
+          "score": 2,
+          "replyingTo": "JOOJ",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "user"
+          }
+        }
+      ]
+    }
+  ]
+}
