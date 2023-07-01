@@ -66,7 +66,7 @@ var bancoDeDados = [
     
       var linkRestaurante = document.createElement('a');
       linkRestaurante.href = 'comentarios/comentarios.html';
-      linkRestaurante.textContent = '👥Comentários👥'; // Add the label for the link
+      linkRestaurante.textContent = '👥Comentários👥';
       linkRestaurante.className = 'fs-3'
       novoBloco.appendChild(linkRestaurante);
     
