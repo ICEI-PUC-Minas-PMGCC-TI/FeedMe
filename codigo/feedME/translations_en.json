@@ -38,5 +38,13 @@
     "ModAz": "Blue Mode",
     "ModVerm": "Red Mode",
     "ModVerd": "Green Mode",
-    "Perfil": "Profile"
+    "Perfil": "Profile",
+    "Busca": "Search",
+    "fast_food": "Fast food",
+    "frutos_do_mar": "Seafood",
+    "pizza": "Pizza",
+    "lanches": "Snacks",
+    "cozinha_brasileira": "Brazilian cuisine",
+    "cozinha_italiana": "Italian cuisine",
+    "resultados_da_busca": "Search results"
 }

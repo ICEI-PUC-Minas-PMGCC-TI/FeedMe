@@ -38,5 +38,14 @@
     "ModAz": "青いモード",
     "ModVerm": "赤いモード",
     "ModVerd": "緑のモード",
-    "Perfil": "プロフィール"
+    "Perfil": "プロフィール",
+    "Busca": "検索",
+    "fast_food": "ファストフード",
+    "frutos_do_mar": "シーフード",
+    "pizza": "ピザ",
+    "lanches": "スナック",
+    "cozinha_brasileira": "ブラジル料理",
+    "cozinha_italiana": "イタリア料理",
+    "resultados_da_busca": "検索結果"
+
 }
