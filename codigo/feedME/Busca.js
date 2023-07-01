@@ -37,38 +37,40 @@ var bancoDeDados = [
   
     for (var i = 0; i < resultados.length; i++) {
       var restaurante = resultados[i].item;
-  
+    
       var novoBloco = document.createElement('div');
       var fotoRestaurante = document.createElement('img');
       fotoRestaurante.src = 'imagens/' + restaurante.foto;
       fotoRestaurante.style.width = '200px';
       fotoRestaurante.style.height = '200px';
       novoBloco.appendChild(fotoRestaurante);
-  
+    
       var textContainer = document.createElement('div');
       textContainer.className = 'text-container';
-  
+    
       var nomeRestaurante = document.createElement('h3');
       nomeRestaurante.textContent = restaurante.nome;
       textContainer.appendChild(nomeRestaurante);
-  
+    
       var descricaoRestaurante = document.createElement('p');
       descricaoRestaurante.textContent = restaurante.descricao;
       textContainer.appendChild(descricaoRestaurante);
-  
+    
       var avaliacaoRestaurante = document.createElement('p');
       for (var j = 0; j < 5; j++) {
         avaliacaoRestaurante.innerHTML += j < restaurante.avaliacao ? '⭐' : '☆';
       }
       textContainer.appendChild(avaliacaoRestaurante);
-  
+    
       novoBloco.appendChild(textContainer);
-  
+    
       var linkRestaurante = document.createElement('a');
-      linkRestaurante.href = '/menu/' + restaurante.id;
-      linkRestaurante.appendChild(novoBloco);
-  
-      divRestaurantes.appendChild(linkRestaurante);
+      linkRestaurante.href = 'comentarios/comentarios.html';
+      linkRestaurante.textContent = '👥Comentários👥'; // Add the label for the link
+      linkRestaurante.className = 'fs-3'
+      novoBloco.appendChild(linkRestaurante);
+    
+      divRestaurantes.appendChild(novoBloco);
     }
   }
   
