@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="form">
+        <div class="leftside">
+            <img class="foto" src="imagens/imglogo.jpg">
+            <h1>Crie a sua conta</h1>
+        </div>
+        <div class="rightside">
+            <h2>REGISTER</h2>
+            <div class="input-container">
+                <div class="input">
+                    <i class="fa fa-user"></i>
+                    <input id="username" type="text" placeholder="Username">
+                </div>
+                <div class="input">
+                    <i class="fa fa-envelope"></i>
+                    <input id="email" type="text" placeholder="Email">
+                </div>
+                <div class="input">
+                    <i class="fa fa-lock"></i>
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+                <div class="input">
+                    <i class="fa fa-lock"></i>
+                    <input id="confirmPassword" type="password" placeholder="Confirm Password">
+                </div>
+                <input type="submit" id="register" class="login" value="REGISTER">
+                <h6>Já é membro? <span id="backToLogin" class="signin" onclick="window.location.href = 'login.html'" >Log in</span></h6>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
