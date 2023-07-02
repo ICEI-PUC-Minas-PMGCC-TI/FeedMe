@@ -46,6 +46,8 @@
     "lanches": "スナック",
     "cozinha_brasileira": "ブラジル料理",
     "cozinha_italiana": "イタリア料理",
-    "resultados_da_busca": "検索結果"
-
+    "resultados_da_busca": "検索結果",
+    "login": "ログイン",
+    "MaisPedidos": "もっと注文",
+    "Favoritos": "お気に入り"
 }

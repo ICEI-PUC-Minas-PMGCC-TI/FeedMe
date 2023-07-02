@@ -21,60 +21,62 @@
 
 <body class="p-3 m-0 border-0 bd-example">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link fs-4" Id_traducao="PagInicial" href="index.html">Pagina Inicial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" Id_traducao="Restaurante" href="restaurantes.html">Restaurantes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fs-4" Id_traducao="Cadastro" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Cadastros
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" Id_traducao="Restaurante" href="AddRestaurante.html">Restaurantes</a></li>
-                  <li><a class="dropdown-item" Id_traducao="Produtos" href="AddProduto.html">Produtos</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fs-4" Id_traducao="Perfil" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Perfil
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" Id_traducao="Carteira" href="carteira.html">Carteira</a></li>
-                  <li><a class="dropdown-item" Id_traducao="Historico" href="historico.html">Histórico de
-                      compras</a></li>
-                  <li><a class="dropdown-item" Id_traducao="Recompensas" href="#">Recompensas</a></li>
-                  <li><a class="dropdown-item" Id_traducao="" href="compras.html">Favoritos</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" Id_traducao="Definicoes" href="definicoes.html">Definições</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" Id_traducao="Busca" href="busca.html">Busca</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" Id_traducao="QuemSomos" href="quemsomos.html">Quem somos</a>
-              </li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="index.html" Id_traducao="PagInicial">Pagina Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="restaurantes.html" Id_traducao="MaisPedidos">Mais pedidos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" Id_traducao="Cadastro">
+              Cadastros
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AddRestaurante.html" Id_traducao="Restaurante">Restaurantes</a></li>
+              <li><a class="dropdown-item" href="AddProduto.html" Id_traducao="Produtos">Produtos</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
-
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" Id_traducao="Perfil">
+              Perfil
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="carteira.html" Id_traducao="Carteira">Carteira</a></li>
+              <li><a class="dropdown-item" href="historico.html" Id_traducao="Historico">Histórico de compras</a></li>
+              <li><a class="dropdown-item" href="#" Id_traducao="Recompensas">Recompensas</a></li>
+              <li><a class="dropdown-item" href="compras.html" Id_traducao="Favoritos">Favoritos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="definicoes.html" Id_traducao="Definicoes">Definições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="busca.html" Id_traducao="Busca">Busca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="quemsomos.html" Id_traducao="QuemSomos">Quem somos</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="login.html" Id_traducao="login">Login</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
     <div class="container px-4 defin_container">
@@ -108,7 +110,21 @@
             </div>
         </div>
     </div>
-
+    <div class="index_container">
+      <footer class="bg-body-tertiary text-center py-3 footer">
+        <div class="container">
+          <h3>Feed Me - Receber Notificações por Email</h3>
+          <p>Gostaria de receber notificações por email?</p>
+          <form id="email-form">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" id="email-input" placeholder="Insira seu email">
+              <button type="submit" class="btn btn-primary" id="submit-button">Enviar</button>
+            </div>
+            <a class="no-email-button" href="next-page.html">Não, obrigado</a>
+          </form>
+        </div>
+      </footer>
+    </div>
 
     <!-- SCRIPTS -->
     <script src="paleta.js"></script>

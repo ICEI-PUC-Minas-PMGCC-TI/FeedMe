@@ -40,12 +40,14 @@
     "ModVerd": "Modo Verde",
     "Perfil": "Perfil",
     "Busca": "Busca",
-    "fast_food":"Fast food",
-    "frutos_do_mar":"Frutos do mar",
-    "pizza":"Pizza",
-    "lanches":"Lanches",
-    "cozinha_brasileira":"Cozinha brasileira",
-    "cozinha_italiana":"Cozinha italiana",
-    "resultados_da_busca":"Resultados da busca"
-
+    "fast_food": "Fast food",
+    "frutos_do_mar": "Frutos do mar",
+    "pizza": "Pizza",
+    "lanches": "Lanches",
+    "cozinha_brasileira": "Cozinha brasileira",
+    "cozinha_italiana": "Cozinha italiana",
+    "resultados_da_busca": "Resultados da busca",
+    "login": "Login",
+    "MaisPedidos": "Mais pedidos",
+    "Favoritos": "Favoritos"
 }
