@@ -63,7 +63,7 @@ tr {
 }
 
 p,
-h1 {
+h1,H3,div {
     color: var(--cor-borda) !important;
 }
 
