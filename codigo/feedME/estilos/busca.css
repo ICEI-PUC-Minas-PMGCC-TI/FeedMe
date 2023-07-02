@@ -64,16 +64,11 @@ input[type="submit"]:hover {
 
 
 
-footer {
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-}
 
 #restaurantes div {
-    background-color: #fff;
+    background-color: var(--cor-de-fundo);
     border-radius: 10px;
+    border: 2px solid var(--cor-borda) !important   ;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
