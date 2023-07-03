@@ -342,13 +342,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Os merges são utilizados juntamente com o pull request para segurança dos dados e verificação de mudanças.
 
 
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Nosso serviço FeedME foi desenvolvido para ser um site que irá otimizar o atual processo de tomada de pedidos em restaurantes. Atráves de sua interface facilitada e com inclusão de diferentes línguas, o usuário pode criar uma conta no site e começar a fazer seus pedidos diretamente pelo site. Quando selecionada a opção "Mais pedidos" são fornecidas ao usuário diversas opções de produtos com altas avaliações e grande demanda em sua localização. O serviço FeedME busca conseguir ajudar restaurantes que sofrem com o atendimento em horários de pico. Restaurante consegue se aplicar para participar do serviço FeedME através da opção "Cadastrar". Após a verificação das informações do restaurante e de seus produtos, o memso poderá sem um membro do serviço FeedME de forma gratuita. É extremamente recomendado que restaurantes parceiros do programa FeedME possuam internet de boa qualidade para seus clientes. 
 
 ## Tecnologias Utilizadas
 
