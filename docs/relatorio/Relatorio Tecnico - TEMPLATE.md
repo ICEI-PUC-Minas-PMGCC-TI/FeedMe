@@ -401,12 +401,7 @@ O site foi testado em um pequeno restaurante no interior. Foi usado todas as fun
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+Nos testes os pontos positivos encontrados foram: A ideia que é, facilitar a experiencia do usuário em determinado restaurante, e também que o mesmo pode ser usado por pessoas de diversos países, pois o próprio site possui a funcionalidade de tradução. Em relação aos pontos encontrados foram: A falta acessibilidade para quem é leigo em tecnologia e pessoas com deficiência visual. Em relação ao primeiro problema, achamos que o que pode ser feito é pela parte do restaurante de disponibilizar um funcionário para ajudar os leigos. Sobre o segundo problema, pretendemos colocar uma voz gravada para ler o site e ajudar pessoas com deficiência a desfrutarem a experiencia que proporcionamos. 
 
 
 # Referências
