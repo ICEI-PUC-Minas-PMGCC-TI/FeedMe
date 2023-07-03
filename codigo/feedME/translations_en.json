@@ -49,5 +49,13 @@
     "resultados_da_busca": "Search results",
     "login": "Login",
     "MaisPedidos": "More orders",
-    "Favoritos": "Favorites"
+    "Favoritos": "Favorites",
+    "Histórico": "history",
+    "foot_txt": "Feed Me - Receive Email Notifications",
+    "foot_txt2": "Would you like to receive email notifications?",
+    "nthx": "No, thank you",
+    "seusprod": "Your Products",
+    "subt": "Subtotal",
+    "desc": "Discount (-10%)",
+    "total": "total"
 }

@@ -49,5 +49,13 @@
     "resultados_da_busca": "検索結果",
     "login": "ログイン",
     "MaisPedidos": "もっと注文",
-    "Favoritos": "お気に入り"
+    "Favoritos": "お気に入り",
+    "Histórico": "履歴",
+    "foot_txt": "Feed Me - メールで通知を受け取る",
+    "foot_txt2": "メールで通知を受け取りたいですか？",
+    "nthx": "いいえ、結構です",
+    "seusprod": "あなたの製品",
+    "subt": "小計",
+    "desc": "割引（-10%）",
+    "total": "合計"
 }

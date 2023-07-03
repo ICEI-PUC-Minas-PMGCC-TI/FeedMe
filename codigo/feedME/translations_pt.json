@@ -49,5 +49,13 @@
     "resultados_da_busca": "Resultados da busca",
     "login": "Login",
     "MaisPedidos": "Mais pedidos",
-    "Favoritos": "Favoritos"
+    "Favoritos": "Favoritos",
+    "Histórico": "historico",
+    "foot_txt": "Feed Me - Receber Notificações por Email",
+    "foot_txt2": "Gostaria de receber notificações por email?",
+    "nthx": "Não, obrigado",
+    "seusprod": "Seus Produtos",
+    "subt": "Subtotal",
+    "desc": "Desconto (-10%)",
+    "total": "total"
 }
