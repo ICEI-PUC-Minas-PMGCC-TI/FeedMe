@@ -69,7 +69,7 @@ c('.produtoInfo--addButton').addEventListener('click', () => {
       identifier,
       id: produtoJson[modalKey].id,
       qt: modalQt
-    }); window.localStorage.setItem('cart', JSON.stringify(cart))
+    });
   }
   updateCart();
   closeModal();
