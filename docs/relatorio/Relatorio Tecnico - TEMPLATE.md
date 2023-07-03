@@ -387,17 +387,7 @@ Nossa equipe fez 4 tipos de testes: Autenticação, funcionalidade, desempenho e
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+O site foi testado em um pequeno restaurante no interior. Foi usado todas as funcionalidades e o dono do restaurante gostou bastante, o site tem uma ótima proposta e facilita bastante a experiencia do cliente no restaurante. O único ponto negativo apresentado, quanto do dono e dos cliente, é a baixa acessibilidade do site. 
 
 ## Ferramentas de Testes (Opcional)
 
