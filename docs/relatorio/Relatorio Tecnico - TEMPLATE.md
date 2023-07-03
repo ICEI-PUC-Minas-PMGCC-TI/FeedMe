@@ -348,14 +348,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Tecnologias Utilizadas
 
--Html: utilizado para projetar a estrutura do site e tornar o memso responsivo para usuários de todos os dispositivos.
--Css: através desta linguagem foi feito o estilo do site.
--Javascript: foi utilizado para implementar o sistema de registro e login;  comentários; busca; cadastro de restaurantes e produtos; histórico de compras; sistema de pedidos; notificações; paleta de cores e sistema de tradução.
--JSON: utilizado para incluir diversas línguas no site e para armazenar produtos de restaurantes.
--GitHub: hospedagem do repositório e para controle da versão final.
--Visual Studio Code: utilizado como editor de código principal durante o precosso de desenvolvimento do serviço.
--OBS Studio: programa utilizado na gravação do vídeo do projeto.
--
+*Html: utilizado para projetar a estrutura do site e tornar o memso responsivo para usuários de todos os dispositivos.
+*Css: através desta linguagem foi feito o estilo do site.
+*Javascript: foi utilizado para implementar o sistema de registro e login;  comentários; busca; cadastro de restaurantes e produtos; histórico de compras; sistema de pedidos; notificações; paleta de cores e sistema de tradução.
+*JSON: utilizado para incluir diversas línguas no site e para armazenar produtos de restaurantes.
+*GitHub: hospedagem do repositório e para controle da versão final.
+*Visual Studio Code: utilizado como editor de código principal durante o precosso de desenvolvimento do serviço.
+*OBS Studio: programa utilizado na gravação do vídeo do projeto.
+*Miro: utilizado para a criação dos wireframes durante o processo de copcepção do projeto.
+*Trello: organização das tarefas e funções de cada membro da equipe.
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
