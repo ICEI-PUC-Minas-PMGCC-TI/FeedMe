@@ -1,192 +1,320 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- BOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- CSS -->
-  <link rel="stylesheet" href="estilos/sytle.css">
-  <link rel="stylesheet" href="estilos/style_quemsomos.css">
-  <!-- END-->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-    crossorigin="anonymous"></script>
-  <title>FeedME</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="style_quemsomos.css">
+    <script src="cadastroR.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <title>FeedME</title>
 </head>
+<body onload="init()">
 
-<body class="p-3 m-0 border-0 bd-example">
+    <body class="p-3 m-0 border-0 bd-example">
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="index.html" Id_traducao="PagInicial">Pagina Inicial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="restaurantes.html" Id_traducao="MaisPedidos">Mais pedidos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" Id_traducao="Cadastro">
-              Cadastros
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="AddRestaurante.html" Id_traducao="Restaurante">Restaurantes</a></li>
-              <li><a class="dropdown-item" href="AddProduto.html" Id_traducao="Produtos">Produtos</a></li>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagens/imglogo.jpg" alt="Avatar Logo" style="width:70px;" class="rounded-pill">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="index.html" Id_traducao="PagInicial">Pagina Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="restaurantes.html" Id_traducao="MaisPedidos">Mais pedidos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" Id_traducao="Cadastro">
+                  Cadastros
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="AddRestaurante.html" Id_traducao="Restaurante">Restaurantes</a></li>
+                  <li><a class="dropdown-item" href="AddProduto.html" Id_traducao="Produtos">Produtos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="historico.html" Id_traducao="Histórico">Histórico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="definicoes.html" Id_traducao="Definicoes">Definições</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="busca.html" Id_traducao="Busca">Busca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="quemsomos.html" Id_traducao="QuemSomos">Quem somos</a>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="historico.html" Id_traducao="Histórico">Histórico</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="definicoes.html" Id_traducao="Definicoes">Definições</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="busca.html" Id_traducao="Busca">Busca</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="quemsomos.html" Id_traducao="QuemSomos">Quem somos</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="login.html" Id_traducao="login">Login</a>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  </header>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="login.html" Id_traducao="login">Login</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
+      
 
-
-  <div class="index_container">
-    <div class="container-fluid">
-      <div class="row">
-        <div id="msg" class="col-sm-10 offset-sm-1 ">
-        </div>
-      </div>
-
-      <form id="form-contato">
-        <div class="form-group row">
-          <div class="col-sm-4 mb-4">
-            <label Id_traducao="Id" for="inputId">Id</label>
-            <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
-          </div>
-          <div class="col-sm-8">
-            <label Id_traducao="NomeRes" for="inputNome">Nome do Restaurante (*)</label>
-            <input type="text" class="form-control" id="inputRestaurante" required
-              placeholder="Informe o nome do restaurante">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-5 mb-4">
-            <label Id_traducao="Telefone" for="inputTelefone">Telefone (*)</label>
-            <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
-          </div>
-          <div class="col-sm-7 mb-4">
-            <label Id_traducao="Email" for="inputEmail">Email</label>
-            <input type="email" class="form-control" id="inputEmail" required placeholder="Email">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-6 mb-4">
-            <label Id_traducao="endereco" for="inputpet">Endereço (*)</label>
-            <input type="text" class="form-control" id="inputEndereço" placeholder="Informe o endereço completo">
-          </div>
-          <div class="col-sm-6 mb-4">
-            <label Id_traducao="NomeGerente" for="inputCategoria">Nome do Gerente (*)</label>
-            <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome do gerente">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-6 mb-4">
-            <label Id_traducao="cpf" for="inputidade">CPF (*)</label>
-            <input type="text" class="form-control" id="inputCPF" required placeholder="Informe o CPF do responsável">
-          </div>
-          <div class="col-sm-6 mb-4">
-            <label Id_traducao="cnpj" for="inputRaça">CNPJ (*)</label>
-            <input type="text" class="form-control" id="inputCNPJ" required placeholder="Informe o CNPJ do restaurante">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <small Id_traducao="camposObrig">(*) Campos obrigatórios</small>
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+            </div>
         </div>
 
-        <div class="form-group row">
-          <div class="col-sm-12">
-            <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
-            <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
-            <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
-            <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
-          </div>
-        </div>
-      </form>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <table id="grid-contatos" class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th Id_traducao="Restaurante" scope="col">Restaurante</th>
-                <th Id_traducao="Telefone" scope="col">Telefone</th>
-                <th Id_traducao="Email" scope="col">Email</th>
-                <th Id_traducao="endereco" scope="col">Endereço</th>
-                <th Id_traducao="NomeRes" scope="col">Nome</th>
-                <th Id_traducao="cpf" scope="col">CPF</th>
-                <th Id_traducao="cnpj" scope="col">CNPJ</th>
-              </tr>
-            </thead>
-            <tbody id="table-contatos">
-              <tr>
-                <td scope="row">1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="index_container">
-    <footer class="bg-body-tertiary text-center py-3 footer">
-      <div class="container">
-        <h3>Feed Me - Receber Notificações por Email</h3>
-        <p>Gostaria de receber notificações por email?</p>
-        <form id="email-form">
-          <div class="input-group mb-3">
-            <input type="email" class="form-control" id="email-input" placeholder="Insira seu email">
-            <button type="submit" class="btn btn-primary" id="submit-button">Enviar</button>
-          </div>
-          <a class="no-email-button" href="next-page.html">Não, obrigado</a>
+        <form id="form-contato">
+            <div class="form-group row">
+                <div class="col-sm-4 mb-4">
+                    <label Id_traducao="Id" for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label Id_traducao="NomeRes" for="inputNome">Nome do Restaurante (*)</label>
+                    <input type="text" class="form-control" id="inputRestaurante" required placeholder="Informe o nome do restaurante">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-5 mb-4">
+                    <label Id_traducao="Telefone" for="inputTelefone">Telefone (*)</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
+                </div>
+                <div class="col-sm-7 mb-4">
+                    <label Id_traducao="Email" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6 mb-4">
+                    <label Id_traducao="endereco" for="inputpet">Endereço (*)</label>
+                    <input type="text" class="form-control" id="inputEndereço" placeholder="Informe o endereço completo" >
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <label Id_traducao="NomeGerente" for="inputCategoria">Nome do Gerente (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome do gerente">
+                </div>
+            </div>
+            <div class="form-group row">    
+                <div class="col-sm-6 mb-4">
+                    <label Id_traducao="cpf" for="inputidade">CPF (*)</label>
+                    <input type="text" class="form-control" id="inputCPF" required placeholder="Informe o CPF do responsável">
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <label Id_traducao="cnpj" for="inputRaça">CNPJ (*)</label>
+                    <input type="text" class="form-control" id="inputCNPJ" required placeholder="Informe o CNPJ do restaurante">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <small Id_traducao="camposObrig" >(*) Campos obrigatórios</small>
+            </div>
+            
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                </div>
+            </div>
         </form>
-      </div>
-    </footer>
-  </div>
-  <script src="paleta.js"></script>
-  <script src="styles.json"></script>
-  <script src="traducao.js"></script>
-  <script src="cadastroR.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th Id_traducao="Restaurante"scope="col">Restaurante</th>
+                            <th Id_traducao="Telefone" scope="col">Telefone</th>
+                            <th Id_traducao="Email" scope="col">Email</th>
+                            <th Id_traducao="endereco" scope="col">Endereço</th>
+                            <th Id_traducao="NomeRes" scope="col">Nome</th>
+                            <th Id_traducao="cpf" scope="col">CPF</th>
+                            <th Id_traducao="cnpj" scope="col">CNPJ</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="cadastroR.js"></script>
+    <script>
+        function exibeContatos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];    
+                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.restaurante}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${contato.endereço}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.cpf}</td>
+                                                <td>${contato.cnpj}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoRestaurante = $("#inputRestaurante").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoEndereço = $("#inputEndereço").val();
+                let campoNome = $('#inputNome').val();
+                let campoCPF = $('#inputCPF').val();
+                let campoCNPJ = $('#inputCNPJ').val();
+                let campoimage = 'https://img.freepik.com/vetores-gratis/lhama-bonito-negocios-icon-ilustracao-personagem-de-desenho-animado-de-mascote-de-alpaca-conceito-de-icone-animal-isolado_138676-989.jpg?w=2000';
+                let contato = { restaurante: campoRestaurante, 
+                    telefone: campoTelefone, 
+                    email: campoEmail, 
+                    endereço: campoEndereço, 
+                    nome: campoNome,
+                    cpf: campoCPF,
+                    cnpj: campoCNPJ, 
+                    foto: campoimage
+                }
+
+                insertContato(contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let campoRestaurante = $("#inputRestaurante").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoEndereço = $("#inputEndereço").val();
+                let campoNome = $("#inputNome").val();
+                let campoCPF = $('#inputCPF').val();
+                let campoCNPJ = $('#inputCNPJ').val();
+                let campoimage = 'https://img.freepik.com/vetores-gratis/lhama-bonito-negocios-icon-ilustracao-personagem-de-desenho-animado-de-mascote-de-alpaca-conceito-de-icone-animal-isolado_138676-989.jpg?w=2000'; 
+                let contato = { restaurante: campoRestaurante, 
+                    telefone: campoTelefone, 
+                    email: campoEmail, 
+                    endereço: campoEndereço, 
+                    nome: campoNome,
+                    cpf: campoCPF,
+                    cnpj: campoCNPJ,
+                    foto: campoimage 
+                };
+
+                updateContato(parseInt(campoId), contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-contato")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-contatos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputRestaurante").val(colunas[1].innerText);
+                $("#inputTelefone").val(colunas[2].innerText);
+                $("#inputEmail").val(colunas[3].innerText);
+                $("#inputEndereço").val(colunas[4].innerText);
+                $("#inputNome").val(colunas[5].innerText);
+                $("#inputCPF").val(colunas[6].innerText);
+                $("#inputCNPJ").val(colunas[6].innerText);
+            });
+
+            exibeContatos();
+        }
+    </script>
+
+<footer class="container-fluid footer">
+
+    <div class="row">
+
+      <div class="col-12 footer_area">
+
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="traducao.js"></script>
+  
 </body>
 
 </html>
