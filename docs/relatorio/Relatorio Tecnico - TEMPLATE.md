@@ -367,7 +367,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 *Trello: organização das tarefas e funções de cada membro da equipe.
 
 
-<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/concepcao/wireframe-feedme" alt="wireframe">
+<img src="https://github.com/ICEI-PUC-Minas-PMGCC-TI/FeedMe/blob/master/docs/relatorio/images/wireframe-feedme.png" alt="wireframe">
 
 ## Arquitetura da solução
 
