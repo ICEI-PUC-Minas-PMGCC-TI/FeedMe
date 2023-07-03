@@ -384,11 +384,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Nossa equipe fez 4 tipos de testes: Autenticação, funcionalidade, desempenho e compatibilidade. No teste de autenticação foi muito bem-sucedido, é possível acessar a conta somente com a senha e login correto, guardando suas informações escolhidas. O teste de funcionalidade foi feito juntamente com o de contabilidade, ambos tiveram resultados excelentes. Nossas funções funcionaram de acordo com o planejado e em todos dispositivos e redes que tentamos.  Quanto ao teste de desempenho, tivemos o empecilho de ter um número pequeno e limitado de dispositivos para entramos no site ao mesmo tempo, então não sabemos da capacidade máxima que o site suporta.  
 
 ## Plano de Testes
 
